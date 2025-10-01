@@ -24,7 +24,8 @@ def calculator(operation,n1,n2):
             return(n1)%(n2)
         else:
             return 'division with zero is not valid'
-    
+    else:
+        return 'enter valid operator'
 
 print('\n\n\nwelcome to calculator\n')
 while True:
